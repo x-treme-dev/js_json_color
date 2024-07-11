@@ -1,0 +1,51 @@
+body{
+    background-color: #fdebd0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    width: 70vw;
+    margin: 0 auto 0 auto;
+}
+
+.formatted{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.formatted__label{
+    margin-bottom: 10px;
+}
+
+.formatted__span{
+    color: red;
+}
+
+.formatted__input{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.formatted__textarea{
+    height: 90vh;
+    resize: vertical;
+}
+
+.formatted__window{
+    width: 100%;
+    height: 90vh;
+    border: 1px solid #000;
+}
+
+.formatted__output{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.red{
+    color: red;
+}
